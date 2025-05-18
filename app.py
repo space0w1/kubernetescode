@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello world, your application worked. Congrats!'
+    return 'This is a test that argoCD works!'
