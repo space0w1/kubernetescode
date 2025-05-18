@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'This is a test that github polling webhook works!'
+    return 'This is a test that github polling works!'
